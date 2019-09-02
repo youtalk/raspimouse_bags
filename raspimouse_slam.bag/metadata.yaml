@@ -1,0 +1,46 @@
+rosbag2_bagfile_information:
+  version: 1
+  storage_identifier: sqlite3
+  relative_file_paths:
+    - raspimouse_slam.bag.db3
+  duration:
+    nanoseconds: 41155036400
+  starting_time:
+    nanoseconds_since_epoch: 1567151487779269660
+  message_count: 1539
+  topics_with_message_count:
+    - topic_metadata:
+        name: /cmd_vel
+        type: geometry_msgs/msg/Twist
+        serialization_format: cdr
+      message_count: 18
+    - topic_metadata:
+        name: /odom
+        type: nav_msgs/msg/Odometry
+        serialization_format: cdr
+      message_count: 411
+    - topic_metadata:
+        name: /rosout
+        type: rcl_interfaces/msg/Log
+        serialization_format: cdr
+      message_count: 15
+    - topic_metadata:
+        name: /scan
+        type: sensor_msgs/msg/LaserScan
+        serialization_format: cdr
+      message_count: 226
+    - topic_metadata:
+        name: /switches
+        type: raspimouse_msgs/msg/Switches
+        serialization_format: cdr
+      message_count: 409
+    - topic_metadata:
+        name: /tf
+        type: tf2_msgs/msg/TFMessage
+        serialization_format: cdr
+      message_count: 411
+    - topic_metadata:
+        name: /tf_static
+        type: tf2_msgs/msg/TFMessage
+        serialization_format: cdr
+      message_count: 49
